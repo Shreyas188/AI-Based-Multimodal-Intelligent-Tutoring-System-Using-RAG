@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pymupdf
+sentence-transformers
+faiss-cpu
+numpy
+requests
+pydantic
+faster-whisper

@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Backend virtual environment
+backend/venv/
+backend/__pycache__/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.vite/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Large data/storage (do not commit)
+backend/storage/
+backend/data/*.pdf
+backend/student_data/
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Search output test files
+search_db_output.txt
+search_docx_output.txt
+search_docx_real_output.txt
+search_output.txt
+search_pdf_output.txt
+
+# Large video files (exceed GitHub 100MB limit)
+*.mp4
+*.avi
+*.mkv
+*.mov
+frontend/videos/
+backend/data/videos/
