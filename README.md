@@ -1,71 +1,71 @@
-# ?? AI-Based Multimodal Intelligent Tutoring System Using RAG
+# 🎓 AI-Based Multimodal Intelligent Tutoring System Using RAG
 
 > An offline, AI-powered Physics tutoring platform for Class 12 students, leveraging Retrieval-Augmented Generation (RAG) for intelligent, context-aware learning experiences.
 
 ---
 
-## ?? Overview
+## 📌 Overview
 
 This system is a full-stack **Multimodal Intelligent Tutoring System (ITS)** that combines:
 
-- ?? **RAG (Retrieval-Augmented Generation)** for grounded, accurate AI responses
-- ?? **AI Doubt Solver** with voice input (Speech-to-Text)
-- ?? **Adaptive Learning Path** with topic unlocking via quizzes
-- ??? **Visual Study Aids** � concept diagrams and real-life images per topic
-- ?? **Admin Dashboard** for uploading curriculum content and tracking student analytics
-- ?? **Fully Offline** � no internet required during student sessions
+- 🧠 **RAG (Retrieval-Augmented Generation)** for grounded, accurate AI responses
+- 🏙️ **AI Doubt Solver** with voice input (Speech-to-Text)
+- 📈 **Adaptive Learning Path** with topic unlocking via quizzes
+- 🖼️ **Visual Study Aids** — concept diagrams and real-life images per topic
+- 🛠️ **Admin Dashboard** for uploading curriculum content and tracking student analytics
+- 🔒 **Fully Offline** — no internet required during student sessions
 
 ---
 
-## ??? Screenshots
+## 📸 Screenshots
 
-### ?? Student Dashboard
+### 🏠 Student Dashboard
 ![Student Dashboard](images/Picture1.png)
 
-### ?? Learning Workspace � Study Summary
+### 📖 Learning Workspace — Study Summary
 ![Learning Workspace - Study Summary](images/Picture2.png)
 
-### ?? AI Doubt Solver (Ask AI Tutor)
+### 🤖 AI Doubt Solver (Ask AI Tutor)
 ![AI Doubt Solver](images/Picture3.png)
 
-### ?? Topic Quiz
+### 📝 Topic Quiz
 ![Topic Quiz](images/Picture4.png)
 
-### ??? Admin Panel � Upload Materials
+### ⚙️ Admin Panel — Upload Materials
 ![Admin - Upload Materials](images/Picture5.png)
 
-### ?? Admin Panel � Curriculum Topics (Topic Directory)
+### 📂 Admin Panel — Curriculum Topics (Topic Directory)
 ![Admin - Topic Directory](images/Picture6.png)
 
-### ?? Admin Panel � Student Analytics
+### 📊 Admin Panel — Student Analytics
 ![Admin - Student Analytics](images/Picture7.png)
 
 ---
 
-## ??? System Architecture
+## 🏗️ System Architecture
 
 ```
 AI-Based-Multimodal-Intelligent-Tutoring-System-Using-RAG/
-�
+¦
 +-- backend/                    # FastAPI Python backend
-�   +-- app.py                  # Main API server
-�   +-- rag_engine.py           # RAG pipeline (FAISS + Sentence Transformers)
-�   +-- database.py             # Student & curriculum data management
-�   +-- answer_generator.py     # AI answer generation via Ollama
-�   +-- evaluator.py            # Quiz evaluation logic
-�   +-- stt_engine.py           # Speech-to-Text (faster-whisper)
-�   +-- study_material.py       # Study material serving
-�   +-- ingest_pdf.py           # PDF ingestion for RAG
-�   +-- requirements.txt        # Python dependencies
-�   +-- data/                   # Storage for PDFs, vectors, student data
-�
+¦   +-- app.py                  # Main API server
+¦   +-- rag_engine.py           # RAG pipeline (FAISS + Sentence Transformers)
+¦   +-- database.py             # Student & curriculum data management
+¦   +-- answer_generator.py     # AI answer generation via Ollama
+¦   +-- evaluator.py            # Quiz evaluation logic
+¦   +-- stt_engine.py           # Speech-to-Text (faster-whisper)
+¦   +-- study_material.py       # Study material serving
+¦   +-- ingest_pdf.py           # PDF ingestion for RAG
+¦   +-- requirements.txt        # Python dependencies
+¦   +-- data/                   # Storage for PDFs, vectors, student data
+¦
 +-- frontend/                   # React + Vite frontend
-�   +-- src/                    # React components & pages
-�   +-- admin.html              # Admin dashboard (standalone HTML)
-�   +-- admin.js                # Admin dashboard logic
-�   +-- public/                 # Static assets
-�   +-- package.json            # Node dependencies
-�
+¦   +-- src/                    # React components & pages
+¦   +-- admin.html              # Admin dashboard (standalone HTML)
+¦   +-- admin.js                # Admin dashboard logic
+¦   +-- public/                 # Static assets
+¦   +-- package.json            # Node dependencies
+¦
 +-- images/                     # Project screenshots
 +-- run_project.bat             # One-click launcher (Windows)
 +-- README.md
@@ -73,7 +73,7 @@ AI-Based-Multimodal-Intelligent-Tutoring-System-Using-RAG/
 
 ---
 
-## ?? Tech Stack
+## 🧰 Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -87,7 +87,7 @@ AI-Based-Multimodal-Intelligent-Tutoring-System-Using-RAG/
 
 ---
 
-## ?? Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -98,7 +98,7 @@ AI-Based-Multimodal-Intelligent-Tutoring-System-Using-RAG/
 
 ---
 
-### 1?? Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Shreyas188/AI-Based-Multimodal-Intelligent-Tutoring-System-Using-RAG.git
@@ -107,7 +107,7 @@ cd AI-Based-Multimodal-Intelligent-Tutoring-System-Using-RAG
 
 ---
 
-### 2?? Backend Setup
+### 2️⃣ Backend Setup
 
 ```bash
 cd backend
@@ -128,7 +128,7 @@ The backend API will be available at: `http://localhost:8000`
 
 ---
 
-### 3?? Frontend Setup
+### 3️⃣ Frontend Setup
 
 ```bash
 cd frontend
@@ -144,7 +144,7 @@ The student app will be available at: `http://localhost:5173`
 
 ---
 
-### 4?? Quick Launch (Windows Only)
+### 4️⃣ Quick Launch (Windows Only)
 
 Use the provided batch script to start both backend and frontend simultaneously:
 
@@ -154,9 +154,9 @@ run_project.bat
 
 ---
 
-## ?? Key Features
+## ✨ Key Features
 
-### ????? Student Features
+### 🎓 Student Features
 
 | Feature | Description |
 |---|---|
@@ -167,7 +167,7 @@ run_project.bat
 | **Topic Quiz** | Auto-generated MCQ quizzes to unlock next topics |
 | **Progress Tracking** | Dashboard with completion %, chapter scores |
 
-### ??? Admin Features
+### 🛠️ Admin Features
 
 | Feature | Description |
 |---|---|
@@ -179,7 +179,7 @@ run_project.bat
 
 ---
 
-## ?? Offline Operation
+## 🔌 Offline Operation
 
 This system is designed to operate **completely offline**:
 
@@ -192,7 +192,7 @@ No API keys or internet connection required after initial setup.
 
 ---
 
-## ?? Backend Dependencies
+## 📦 Backend Dependencies
 
 ```
 fastapi
@@ -208,23 +208,23 @@ faster-whisper
 
 ---
 
-## ?? License
+## 📄 License
 
 This project is developed as part of an academic research initiative. All rights reserved.
 
 ---
 
-## ?? Acknowledgements
+## 🙏 Acknowledgements
 
-- [Ollama](https://ollama.ai) � Local LLM inference
-- [FAISS](https://github.com/facebookresearch/faiss) � Efficient similarity search
-- [Sentence-Transformers](https://www.sbert.net/) � Text embeddings
-- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) � Local speech recognition
-- [React](https://react.dev) + [Vite](https://vitejs.dev) � Frontend framework
-- [FastAPI](https://fastapi.tiangolo.com) � Backend API framework
+- [Ollama](https://ollama.ai) — Local LLM inference
+- [FAISS](https://github.com/facebookresearch/faiss) — Efficient similarity search
+- [Sentence-Transformers](https://www.sbert.net/) — Text embeddings
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) — Local speech recognition
+- [React](https://react.dev) + [Vite](https://vitejs.dev) — Frontend framework
+- [FastAPI](https://fastapi.tiangolo.com) — Backend API framework
 
 ---
 
 <div align="center">
-  Made with ?? for smarter, accessible education
+  Made with ❤️ for smarter, accessible education
 </div>
